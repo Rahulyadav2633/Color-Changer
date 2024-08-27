@@ -1,0 +1,60 @@
+html {
+    margin: 0;
+  }
+  
+  span {
+    display: block;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+  }
+  
+  #grey {
+    background: grey;
+  }
+  
+  #white {
+    background: white;
+  }
+  #blue {
+    background: blue;
+  }
+  #yellow {
+    background: yellow;
+  }
+
+  .navbar-centerd {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+.navbar-centerd nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for the navigation links */
+.navbar-centerd nav a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Active link style */
+.navbar-centerd nav a[aria-current="page"] {
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
+}
+
